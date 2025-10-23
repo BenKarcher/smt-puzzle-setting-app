@@ -25,7 +25,7 @@ npm install
 npm run dev
 
 # Build for production
-npm build
+npm run build
 ```
 
 Visit http://localhost:5173/ to start creating puzzles.
