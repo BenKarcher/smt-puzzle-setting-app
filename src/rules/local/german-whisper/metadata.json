@@ -1,0 +1,12 @@
+{
+  "id": "german-whisper",
+  "name": "German Whisper",
+  "description": "Adjacent digits along the line must differ by at least 5",
+  "author": "SMT Puzzle Team",
+  "type": "instantiable",
+  "requiredVariables": ["numbers-all"],
+  "categories": ["difference", "inequality"],
+  "minGroups": 1,
+  "maxGroups": 1,
+  "requiresValue": false
+}

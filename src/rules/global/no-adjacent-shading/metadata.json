@@ -1,0 +1,9 @@
+{
+  "id": "no-adjacent-shading",
+  "name": "No Adjacent Shading",
+  "description": "No two shaded cells may touch orthogonally",
+  "author": "SMT Puzzle Team",
+  "type": "global",
+  "requiredVariables": ["shading"],
+  "categories": ["shading"]
+}

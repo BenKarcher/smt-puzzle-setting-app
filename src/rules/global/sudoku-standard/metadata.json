@@ -1,0 +1,10 @@
+{
+  "id": "sudoku-standard",
+  "name": "Standard Sudoku Rules",
+  "description": "Each row, column, and box must contain all different numbers",
+  "author": "SMT Puzzle Team",
+  "type": "global",
+  "requiredVariables": ["numbers-all"],
+  "categories": ["sudoku", "uniqueness"],
+  "requiresRegions": true
+}

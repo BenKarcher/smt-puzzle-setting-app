@@ -1,0 +1,12 @@
+{
+  "id": "thermometer",
+  "name": "Thermometer",
+  "description": "Digits must strictly increase as you move away from the bulb",
+  "author": "SMT Puzzle Team",
+  "type": "instantiable",
+  "requiredVariables": ["numbers-all"],
+  "categories": ["ordering", "inequality"],
+  "minGroups": 1,
+  "maxGroups": 1,
+  "requiresValue": false
+}

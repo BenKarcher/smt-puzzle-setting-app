@@ -1,0 +1,18 @@
+{
+  "id": "my-rule-id",
+  "name": "My Rule Name",
+  "description": "Brief description of what this rule does",
+  "author": "Your Name",
+
+  "type": "instantiable",
+
+  "requiredVariables": ["numbers-all"],
+
+  "categories": ["category1", "category2"],
+
+  "minGroups": 1,
+  "maxGroups": 1,
+
+  "requiresValue": false,
+  "valueLabel": "Value"
+}

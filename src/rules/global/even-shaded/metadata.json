@@ -1,0 +1,9 @@
+{
+  "id": "even-shaded",
+  "name": "Shade Exactly Even Digits",
+  "description": "A cell is shaded if and only if it contains an even number",
+  "author": "SMT Puzzle Team",
+  "type": "global",
+  "requiredVariables": ["numbers-all", "shading"],
+  "categories": ["shading", "parity"]
+}

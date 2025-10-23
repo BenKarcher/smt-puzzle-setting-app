@@ -1,0 +1,9 @@
+{
+  "id": "latin-square",
+  "name": "Latin Square",
+  "description": "Each row and column must contain all different numbers",
+  "author": "SMT Puzzle Team",
+  "type": "global",
+  "requiredVariables": ["numbers-all"],
+  "categories": ["uniqueness"]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "white-dot",
+  "name": "White Dot (Consecutive)",
+  "description": "Two cells connected by a white dot must differ by exactly 1",
+  "author": "SMT Puzzle Team",
+  "type": "instantiable",
+  "requiredVariables": ["numbers-all"],
+  "categories": ["kropki", "comparison"],
+  "minGroups": 1,
+  "maxGroups": 1,
+  "requiresValue": false
+}

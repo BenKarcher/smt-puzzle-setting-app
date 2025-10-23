@@ -1,0 +1,13 @@
+{
+  "id": "killer-cage",
+  "name": "Killer Cage",
+  "description": "Numbers in a cage must sum to a given total and be all different",
+  "author": "SMT Puzzle Team",
+  "type": "instantiable",
+  "requiredVariables": ["numbers-all"],
+  "categories": ["killer", "sum"],
+  "minGroups": 1,
+  "maxGroups": 1,
+  "requiresValue": true,
+  "valueLabel": "Sum"
+}

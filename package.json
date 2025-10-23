@@ -1,0 +1,22 @@
+{
+  "name": "smt-puzzle",
+  "version": "1.0.0",
+  "description": "Modular web-based puzzle setter with MiniZinc constraint solving",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": ["puzzle", "minizinc", "constraint-solving"],
+  "author": "SMT Puzzle Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^6.2.1",
+    "svelte": "^5.41.2",
+    "vite": "^7.1.11"
+  },
+  "dependencies": {
+    "minizinc": "^4.4.4"
+  }
+}

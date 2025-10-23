@@ -1,0 +1,12 @@
+{
+  "id": "region-sum-line",
+  "name": "Region Sum Line",
+  "description": "Sum of digits must be equal in each region the line passes through",
+  "author": "SMT Puzzle Team",
+  "type": "instantiable",
+  "requiredVariables": ["numbers-all"],
+  "categories": ["sum", "region"],
+  "minGroups": 1,
+  "maxGroups": 1,
+  "requiresValue": false
+}

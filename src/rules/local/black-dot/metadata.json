@@ -1,0 +1,12 @@
+{
+  "id": "black-dot",
+  "name": "Black Dot (2:1 Ratio)",
+  "description": "Two cells connected by a black dot must have a 2:1 ratio",
+  "author": "SMT Puzzle Team",
+  "type": "instantiable",
+  "requiredVariables": ["numbers-all"],
+  "categories": ["kropki", "comparison"],
+  "minGroups": 1,
+  "maxGroups": 1,
+  "requiresValue": false
+}

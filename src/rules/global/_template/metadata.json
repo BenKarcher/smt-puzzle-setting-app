@@ -1,0 +1,12 @@
+{
+  "id": "my-global-rule-id",
+  "name": "My Global Rule Name",
+  "description": "Brief description of what this global rule does",
+  "author": "Your Name",
+
+  "type": "global",
+
+  "requiredVariables": ["numbers-all"],
+
+  "categories": ["category1", "category2"]
+}

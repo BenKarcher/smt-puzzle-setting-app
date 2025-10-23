@@ -1,0 +1,12 @@
+{
+  "id": "arrow",
+  "name": "Arrow",
+  "description": "Each arrow coming out of a pill sums to the number in the pill (read as multi-digit)",
+  "author": "SMT Puzzle Team",
+  "type": "instantiable",
+  "requiredVariables": ["numbers-all"],
+  "categories": ["arithmetic", "sum"],
+  "minGroups": 2,
+  "maxGroups": 999,
+  "requiresValue": false
+}

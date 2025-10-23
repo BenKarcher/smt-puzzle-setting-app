@@ -1,0 +1,12 @@
+{
+  "id": "palindrome",
+  "name": "Palindrome",
+  "description": "Digits along the line must form a palindrome (read the same forwards and backwards)",
+  "author": "SMT Puzzle Team",
+  "type": "instantiable",
+  "requiredVariables": ["numbers-all"],
+  "categories": ["sequence", "symmetry"],
+  "minGroups": 1,
+  "maxGroups": 1,
+  "requiresValue": false
+}

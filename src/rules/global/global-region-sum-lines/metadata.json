@@ -1,0 +1,12 @@
+{
+  "id": "global-region-sum-lines",
+  "name": "Global Region Sum Lines",
+  "description": "This rule specifies that for each digit that occurs on a sum line, the sum of the region indexes in which that digit appears must be equal.",
+  "author": "Your Name",
+
+  "type": "global",
+
+  "requiredVariables": ["numbers-all"],
+
+  "categories": ["sudoku", "global", "sum"]
+}
