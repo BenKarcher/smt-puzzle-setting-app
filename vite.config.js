@@ -3,7 +3,7 @@ import { svelte } from '@sveltejs/vite-plugin-svelte';
 
 export default defineConfig({
   plugins: [svelte()],
-  base: '/smt-puzzle-setting-app/',
+  base: mode === 'production' ? '/smt-puzzle-setting-app/' : '/',
   optimizeDeps: {
     exclude: ['minizinc']
   },
