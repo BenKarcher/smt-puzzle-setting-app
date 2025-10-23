@@ -9,5 +9,5 @@
   "minGroups": 1,
   "maxGroups": 1,
   "requiresValue": true,
-  "valueLabel": "Sum"
+  "valueLabel": "Sum (optional)"
 }

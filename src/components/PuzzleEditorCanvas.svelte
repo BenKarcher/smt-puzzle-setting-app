@@ -1,7 +1,6 @@
 <script>
   import { onMount, createEventDispatcher } from 'svelte';
   import { PuzzleSolver } from '../core/solver.js';
-  import { getRuleById } from '../lib/rule-loader.js';
   import RuleSelector from './RuleSelector.svelte';
   import ConstraintSidebar from './ConstraintSidebar.svelte';
   import { getGlobalRules, getInstantiableRules, getCompatibleRules } from '../lib/rule-loader-v2.js';

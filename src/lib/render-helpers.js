@@ -74,29 +74,29 @@ export function draw_cage(ctx, cells, cellSize, options = {}) {
     const hasBottom = !cells.some(([r2, c2]) => r2 === r + 1 && c2 === c);
     const hasLeft = !cells.some(([r2, c2]) => r2 === r && c2 === c - 1);
     const hasRight = !cells.some(([r2, c2]) => r2 === r && c2 === c + 1);
-
+    const offset = cellSize * 0.08; // Slight offset to avoid overlapping grid lines
     if (hasTop) {
       ctx.beginPath();
-      ctx.moveTo(coords.x_min, coords.y_min);
-      ctx.lineTo(coords.x_max, coords.y_min);
+      ctx.moveTo(coords.x_min, coords.y_min + offset);
+      ctx.lineTo(coords.x_max, coords.y_min + offset);
       ctx.stroke();
     }
     if (hasBottom) {
       ctx.beginPath();
-      ctx.moveTo(coords.x_min, coords.y_max);
-      ctx.lineTo(coords.x_max, coords.y_max);
+      ctx.moveTo(coords.x_min, coords.y_max - offset);
+      ctx.lineTo(coords.x_max, coords.y_max - offset);
       ctx.stroke();
     }
     if (hasLeft) {
       ctx.beginPath();
-      ctx.moveTo(coords.x_min, coords.y_min);
-      ctx.lineTo(coords.x_min, coords.y_max);
+      ctx.moveTo(coords.x_min + offset, coords.y_min);
+      ctx.lineTo(coords.x_min + offset, coords.y_max);
       ctx.stroke();
     }
     if (hasRight) {
       ctx.beginPath();
-      ctx.moveTo(coords.x_max, coords.y_min);
-      ctx.lineTo(coords.x_max, coords.y_max);
+      ctx.moveTo(coords.x_max - offset, coords.y_min);
+      ctx.lineTo(coords.x_max - offset, coords.y_max);
       ctx.stroke();
     }
   });

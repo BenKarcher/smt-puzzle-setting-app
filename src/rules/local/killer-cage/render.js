@@ -17,7 +17,7 @@ export default function render(groups, ctx, helpers) {
     });
 
     // Draw sum value in top-left corner of first cell
-    if (group.value !== undefined && group.cells.length > 0) {
+    if (typeof group.value === "number" && group.cells.length > 0) {
       const [r, c] = group.cells[0];
       const coords = get_coords(r, c);
 
